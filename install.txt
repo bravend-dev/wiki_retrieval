@@ -1,0 +1,13 @@
+* pyserini
+1. Cài java21, do anserini yêu cầu: https://computingforgeeks.com/install-java-jdk-21-openjdk-21-on-ubuntu/
+
+sudo update-alternatives --config java
+sudo update-alternatives --install /usr/bin/java java /usr/local/jdk-21.0.2/bin/java 100
+sudo update-alternatives --install /usr/bin/javac javac /usr/local/jdk-21.0.2/bin/javac 100
+
+2. pip install pyserini
+
+* faiss-gpu
+- https://github.com/facebookresearch/faiss/wiki/Installing-Faiss
+
+conda install -c pytorch -c nvidia faiss-gpu=1.10.0

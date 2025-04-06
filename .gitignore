@@ -1,0 +1,7 @@
+*/__pycache__
+*/*/__pycache__
+/data
+/cache
+/files
+/zac2022-data
+/zac2022-e2e-qa
